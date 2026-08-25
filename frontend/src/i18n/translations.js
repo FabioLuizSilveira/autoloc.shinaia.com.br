@@ -1,5 +1,6 @@
 export const translations = {
   pt: {
+    brand: { name: "Shinã I.A.", tagline: "Gestão para Locadoras de Veículos" },
     nav: {
       product: "Plataforma",
       how: "Como funciona",
@@ -161,6 +162,7 @@ export const translations = {
     },
   },
   en: {
+    brand: { name: "Shinã I.A.", tagline: "Management for Vehicle Rental Companies" },
     nav: {
       product: "Platform",
       how: "How it works",

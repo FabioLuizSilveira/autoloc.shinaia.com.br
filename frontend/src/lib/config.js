@@ -6,5 +6,4 @@ export const PLATFORM = {
   demo: "https://app.shinaia.com.br/login",
 };
 
-export const BRAND_LOGO =
-  "https://customer-assets-jt897jd0.emergentagent.net/job_f3da325b-e312-4e78-974d-ffe2defbf438/artifacts/ickfaja8_shina-mkt-icon-symbol.png";
+export const BRAND_LOGO = "/shina-logo.png";

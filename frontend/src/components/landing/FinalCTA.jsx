@@ -19,7 +19,7 @@ export function FinalCTA() {
       <Reveal>
         <div className="glass relative overflow-hidden rounded-[2.5rem] px-8 py-20 text-center md:px-16 md:py-28">
           <div className="plasma left-1/2 top-0 h-[500px] w-[700px] -translate-x-1/2 bg-[#7000ff]/50 animate-pulse-glow" />
-          <img src={BRAND_LOGO} alt="Shinã" className="relative mx-auto mb-8 h-16 w-16 rounded-2xl animate-float" />
+          <img src={BRAND_LOGO} alt="Shinã I.A." className="relative mx-auto mb-8 h-20 w-20 object-contain animate-float" />
           <h2 className="relative mx-auto max-w-3xl font-display text-3xl font-black leading-tight tracking-tight text-glow md:text-6xl">{f.title}</h2>
           <p className="relative mx-auto mt-6 max-w-xl text-base font-light text-zinc-300 md:text-lg">{f.d}</p>
           <div className="relative mt-10 flex flex-wrap items-center justify-center gap-4">

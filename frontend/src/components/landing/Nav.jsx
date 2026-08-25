@@ -40,8 +40,11 @@ export function Nav() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#top" data-testid="nav-logo" className="flex items-center gap-2.5">
-          <img src={BRAND_LOGO} alt="Shinã" className="h-9 w-9 rounded-lg" />
-          <span className="font-display text-xl font-bold tracking-tight">Shinã</span>
+          <img src={BRAND_LOGO} alt="Shinã I.A." className="h-10 w-10 object-contain" />
+          <span className="flex flex-col leading-none">
+            <span className="font-display text-lg font-bold tracking-tight">{t.brand.name}</span>
+            <span className="mt-1 hidden text-[10px] tracking-wide text-zinc-400 sm:block">{t.brand.tagline}</span>
+          </span>
         </a>
 
         <div className="hidden items-center gap-8 lg:flex">
