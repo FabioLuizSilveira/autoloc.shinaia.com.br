@@ -14,6 +14,7 @@ import { FAQ } from "@/components/landing/FAQ";
 import { Pricing } from "@/components/landing/Pricing";
 import { FinalCTA } from "@/components/landing/FinalCTA";
 import { Footer } from "@/components/landing/Footer";
+import { FloatingWhatsApp } from "@/components/landing/FloatingWhatsApp";
 import { trackEvent } from "@/lib/api";
 
 function ScrollDepth() {
@@ -62,6 +63,7 @@ export default function Landing() {
               <FinalCTA />
             </main>
             <Footer />
+            <FloatingWhatsApp />
           </div>
         </ReactLenis>
       </LeadProvider>

@@ -6,4 +6,13 @@ export const PLATFORM = {
   demo: "https://app.shinaia.com.br/login",
 };
 
+// WhatsApp do especialista. Troque pelo número real (formato internacional, só dígitos).
+export const WHATSAPP = {
+  number: "5599999999999",
+  message: {
+    pt: "Olá! Quero falar com um especialista sobre a Shinã I.A.",
+    en: "Hi! I'd like to talk to a specialist about Shinã I.A.",
+  },
+};
+
 export const BRAND_LOGO = "/shina-logo.png";
