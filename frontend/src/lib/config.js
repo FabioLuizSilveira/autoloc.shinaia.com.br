@@ -8,7 +8,7 @@ export const PLATFORM = {
 
 // WhatsApp do especialista. Troque pelo número real (formato internacional, só dígitos).
 export const WHATSAPP = {
-  number: "5599999999999",
+  number: "5511966289405",
   message: {
     pt: "Olá! Quero falar com um especialista sobre a Shinã I.A.",
     en: "Hi! I'd like to talk to a specialist about Shinã I.A.",
