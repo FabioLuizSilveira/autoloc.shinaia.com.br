@@ -6,9 +6,9 @@ import { useLead } from "@/context/LeadContext";
 import { MaskedLines } from "@/components/landing/motion";
 import { trackEvent } from "@/lib/api";
 
-const HERO_VIDEO_WEBM = "/hero-nav.webm";
-const HERO_VIDEO_MP4 = "/hero-nav.mp4";
-const HERO_POSTER = "/hero-nav-poster.jpg";
+const HERO_VIDEO_WEBM = "/hero-devices.webm";
+const HERO_VIDEO_MP4 = "/hero-devices.mp4";
+const HERO_POSTER = "/hero-devices-poster.jpg";
 
 export function Hero() {
   const { t, lang } = useLang();
