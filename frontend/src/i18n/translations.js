@@ -58,7 +58,7 @@ export const translations = {
       overline: "Benefícios",
       title: "Resultados que você sente no caixa",
       items: [
-        { t: "Mais receita por carro", d: "Precificação dinâmica com IA aumenta a ocupação e o ticket médio da sua frota.", k: "+38%", kl: "receita/veículo" },
+        { t: "Manutenção que se antecipa", d: "Vistoria e telemetria abrem ordens de serviço sozinhas, a IA prioriza o que é urgente e o Auditor de Manutenção barra gasto indevido em peças e mão de obra.", k: "-34%", kl: "tempo de carro parado" },
         { t: "Menos inadimplência", d: "Cobrança automática, caução inteligente e score de risco em cada locação.", k: "-64%", kl: "calotes" },
         { t: "Operação no automático", d: "Contratos, vistorias e repasses sem toque humano. Sua equipe foca no que importa.", k: "12h", kl: "economizadas/semana" },
         { t: "Cliente que volta", d: "Experiência de reserva premium que transforma locatário em cliente recorrente.", k: "4,9/5", kl: "satisfação" },
@@ -66,10 +66,10 @@ export const translations = {
     },
     diff: {
       overline: "Diferenciais",
-      marquee: ["IA de precificação", "Vistoria digital", "Contrato eletrônico", "Antifraude", "Repasse automático", "Painel em tempo real"],
+      marquee: ["Rastreamento via API", "Vistoria digital", "Contrato eletrônico", "Antifraude", "Repasse automático", "Painel em tempo real"],
       title: "Inteligência artificial trabalhando por você",
       items: [
-        { t: "Precificação preditiva", d: "A IA analisa demanda, sazonalidade e concorrência para sugerir o preço que maximiza seu lucro." },
+        { t: "Rastreamento por API aberta", d: "Aponte o provedor de GPS que sua frota já usa para o nosso webhook — sem trocar de hardware. Posição em tempo real, cercas virtuais com alerta e cada requisição assinada com HMAC." },
         { t: "Antifraude embarcado", d: "Verificação de identidade, CNH e score de risco antes de qualquer entrega de chave." },
         { t: "Vistoria com visão computacional", d: "Fotos analisadas automaticamente detectam avarias e protegem o seu patrimônio." },
       ],
@@ -208,7 +208,7 @@ export const translations = {
       overline: "Benefits",
       title: "Results you feel in your cash flow",
       items: [
-        { t: "More revenue per car", d: "AI dynamic pricing increases occupancy and average ticket across your fleet.", k: "+38%", kl: "revenue/vehicle" },
+        { t: "Maintenance that stays ahead", d: "Inspections and telemetry open work orders on their own, AI triages what's urgent, and the Maintenance Auditor blocks overspend on parts and labor.", k: "-34%", kl: "vehicle downtime" },
         { t: "Less default", d: "Automatic billing, smart deposits and a risk score on every rental.", k: "-64%", kl: "defaults" },
         { t: "Operation on autopilot", d: "Contracts, inspections and payouts with no human touch. Your team focuses on what matters.", k: "12h", kl: "saved/week" },
         { t: "Customers who return", d: "A premium booking experience that turns renters into recurring customers.", k: "4.9/5", kl: "satisfaction" },
@@ -216,10 +216,10 @@ export const translations = {
     },
     diff: {
       overline: "Differentiators",
-      marquee: ["AI pricing", "Digital inspection", "E-contract", "Anti-fraud", "Auto payouts", "Real-time dashboard"],
+      marquee: ["API GPS tracking", "Digital inspection", "E-contract", "Anti-fraud", "Auto payouts", "Real-time dashboard"],
       title: "Artificial intelligence working for you",
       items: [
-        { t: "Predictive pricing", d: "AI analyzes demand, seasonality and competition to suggest the price that maximizes your profit." },
+        { t: "Open-API GPS tracking", d: "Point the GPS provider your fleet already uses at our webhook — no new hardware. Live position, geofence alerts, and every request signed with HMAC." },
         { t: "Built-in anti-fraud", d: "Identity, driver's license and risk-score verification before any key handover." },
         { t: "Computer-vision inspection", d: "Photos are automatically analyzed to detect damage and protect your assets." },
       ],
